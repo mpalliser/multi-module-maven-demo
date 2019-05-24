@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <!-- User -->
+    <changeSet author="mariano.palliser" id="db.changelog.mariano.palliser.2019-05-23" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+
+        <insert tableName="USER">
+            <column name="USERNAME" value="Mariano"/>
+            <column name="PASSWORD" value="TEST"/>
+            <column name="NAME" value="Mariano"/>
+            <column name="SURNAME" value=" Palliser"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

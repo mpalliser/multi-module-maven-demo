@@ -1,0 +1,5 @@
+com\example\model\converter\UserConverter.class
+com\example\model\filter\UserFilter.class
+com\example\model\domain\QUser.class
+com\example\model\api\UserDto.class
+com\example\model\domain\User.class
